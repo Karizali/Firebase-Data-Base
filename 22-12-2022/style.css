@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(61, 61, 168, 0.757);
+    height: 100vh;
+}
+
+.loginContainer {
+    margin-left: 4rem;
+}
+
+.signupContainer {
+    margin-left: 4rem;
+}
+
+.all input {
+    border-radius: 5px;
+    height: 3rem;
+    width: 18rem;
+    outline: none;
+    box-shadow: 2px black;
+}
+
+.all h1,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.btnn button {
+    height: 2.5rem;
+    width: 6rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(3, 222, 112);
+    font-size: 1.2rem;
+    color: white;
+}
